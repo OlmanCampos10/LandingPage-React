@@ -1,13 +1,14 @@
-@import "~bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/bootstrap.scss';
 
-/* 
 
-    You can write your own styles here...
+body {
+    padding-top: 54px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    @media (min-width: 992px){
+        padding-top: 56px;
+    }
+}
 
-*/
+.card {
+    height: 100%;
+}
